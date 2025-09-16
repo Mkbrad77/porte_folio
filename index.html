@@ -506,6 +506,62 @@
             resize: vertical;
         }
 
+        /* Certifications Section */
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .cert-card {
+            display: flex;
+            gap: 1.5rem;
+            background: var(--darker);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .cert-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(102, 126, 234, 0.4);
+        }
+
+        .cert-logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            border-radius: 8px;
+            background: #fff;
+            padding: 5px;
+        }
+
+        .cert-info h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .cert-info p {
+            color: var(--text-muted);
+            margin: 0.3rem 0;
+            font-size: 0.9rem;
+        }
+
+        .cert-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .cert-link:hover {
+            text-decoration: underline;
+        }
+
+
         /* Footer */
         .footer {
             background: var(--darker);
@@ -716,6 +772,53 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Expérience</h2>
+            <div class="timeline fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ingénieur de recherche en IA</h3>
+                        <h4>Devoteam</h4>
+                        <p>
+                            Conception et implémentation de méthodes avancées en finance : Reinforcement Learning, Deep Learning, LLM. 
+                            Ingénierie de données multimodales et développement d'environnements de simulation de marchés.
+                        </p>
+                    </div>
+                    <div class="timeline-date">En cours</div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Data Engineer</h3>
+                        <h4>BLUE EnerFreeze</h4>
+                        <p>
+                            Développement de robots nettoyeurs de données pour centrales photovoltaïques, modèles ML pour prévision 
+                            énergétique, et conception d'ETL hybrides pour données de consommation gaz via API GRDF.
+                        </p>
+                    </div>
+                    <div class="timeline-date">Fév 2025 - 6 mois</div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Stagiaire</h3>
+                        <h4>IMMAR</h4>
+                        <p>
+                            Premier stage professionnel de 4 mois, introduction aux projets industriels et développement 
+                            de compétences en ingénierie logicielle appliquée.
+                        </p>
+                    </div>
+                    <div class="timeline-date">Août 2023 - 4 mois</div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
@@ -800,6 +903,9 @@
             </div>
         </div>
     </section>
+
+
+
 
     <!-- Projects Section -->
     <section id="projects" class="section">
@@ -896,57 +1002,11 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title fade-in">Expérience</h2>
-            <div class="timeline fade-in">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Ingénieur de recherche en IA</h3>
-                        <h4>Devoteam</h4>
-                        <p>
-                            Conception et implémentation de méthodes avancées en finance : Reinforcement Learning, Deep Learning, LLM. 
-                            Ingénierie de données multimodales et développement d'environnements de simulation de marchés.
-                        </p>
-                    </div>
-                    <div class="timeline-date">En cours</div>
-                    <div class="timeline-dot"></div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Data Engineer</h3>
-                        <h4>BLUE EnerFreeze</h4>
-                        <p>
-                            Développement de robots nettoyeurs de données pour centrales photovoltaïques, modèles ML pour prévision 
-                            énergétique, et conception d'ETL hybrides pour données de consommation gaz via API GRDF.
-                        </p>
-                    </div>
-                    <div class="timeline-date">Fév 2025 - 6 mois</div>
-                    <div class="timeline-dot"></div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Stagiaire</h3>
-                        <h4>IMMAR</h4>
-                        <p>
-                            Premier stage professionnel de 4 mois, introduction aux projets industriels et développement 
-                            de compétences en ingénierie logicielle appliquée.
-                        </p>
-                    </div>
-                    <div class="timeline-date">Août 2023 - 4 mois</div>
-                    <div class="timeline-dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Formation Section -->
     <section id="formation" class="section">
         <div class="container">
-            <h2 class="section-title fade-in">Formation & Certifications</h2>
+            <h2 class="section-title fade-in">Formations</h2>
             <div class="timeline fade-in">
                 <div class="timeline-item">
                     <div class="timeline-content">
@@ -974,25 +1034,106 @@
                     <div class="timeline-dot"></div>
                 </div>
             </div>
-
-            <div class="skills-grid fade-in" style="margin-top: 3rem;">
-                <div class="skill-category">
-                    <h3><i class="fas fa-certificate"></i> Certifications professionnelles</h3>
-                    <div style="color: var(--text-muted); line-height: 1.8;">
-                        <p><strong>The Complete Financial Analyst Course 2024</strong><br>
-                        Excel, Accounting, Financial Statement Analysis, Business Analysis, Financial Math, PowerPoint</p>
-                        
-                        <p><strong>Devenir un expert du SQL - Le cours Complet</strong><br>
-                        Power BI pour une Data Science optimale</p>
-                        
-                        <p><strong>Prévention Sup'</strong><br>
-                        Santé et Sécurité au travail (ID: 180097)</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Certifications</h2>
+            <div class="certifications-grid fade-in">
+
+                <!-- Exemple Certification -->
+                <div class="cert-card">
+                    <img src="devoteam.png" alt="Devoteam Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Devoteam AI Level 2 - Sales</h3>
+                        <p><strong>Organisme :</strong> Canvas Credentials (Badgr)</p>
+                        <p><strong>Date :</strong> Août 2025</p>
+                        <p><strong>ID :</strong> 68b0457077e4235b2648787e</p>
+                        <p><strong> Compétences :</strong> compréhension des cas d’usage IA, positionnement des offres AI, 
+                            démarche de conseil orientée client, argumentaire commercial autour de solutions IA.</p>
+                        <a href="http://eu.badgr.com/public/assertions/C9ClgKeeRiqjOU0PA9MV-A" target="_blank" class="cert-link">
+                            📄 Voir le certificat
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="logo_udemy.jpg" alt="Udemy Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Data Science et Machine Learning MasterClass Python</h3>
+                        <p><strong>Organisme :</strong> Udemy</p>
+                        <p><strong>Date :</strong> Sept. 2024</p>
+                        <p><strong>Compétences :</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p>
+                        <a href="udemy_data_science.pdf" target="_blank" class="cert-link">
+                            📄 Voir le certificat
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="logo_aws.svg" alt="AWS Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>AWS Cloud Foundations</h3>
+                        <p><strong>Organisme :</strong> AWS Education Services</p>
+                        <p><strong>Date :</strong> Juin 2024</p>
+                        <p><strong> Compétences :</strong> bases du cloud computing, principes de l’architecture AWS</p>
+                        <a href="Aws_Introduction_to_Cloud_101.png" target="_blank" class="cert-link">
+                            📄 Voir le certificat
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <img src="logo_udemy.jpg" alt="Udemy Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Professional Git & GitHub/GitLab/Azure DevOps</h3>
+                        <p><strong>Organisme :</strong> Udemy</p>
+                        <p><em>En cours</em></p>
+                        <p><strong>Compétences :</strong> maîtrise avancée de Git, gestion de branches, pull/merge requests, workflows collaboratifs, résolution de conflits et gestion de dépôts sur GitHub/GitLab/Azure DevOps.</p>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <img src="logo_udemy.jpg" alt="Udemy Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Deploy ML Models with Streamlit</h3>
+                        <p><strong>Organisme :</strong> Udemy</p>
+                        <p><em>En cours</em></p>
+                        <p><strong>Compétences :</strong> création d’applications interactives avec Streamlit, intégration de modèles ML, gestion de session/caching, connexion à des sources de données et déploiement sécurisé en production.</p>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <img src="logo_udemy.jpg" alt="Udemy Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Deep Learning with TensorFlow 2 & Keras</h3>
+                        <p><strong>Organisme :</strong> Udemy</p>
+                        <p><em>En cours</em></p>
+                        <p><strong>Compétences :</strong> développement de modèles de deep learning (ANN, CNN, RNN, GAN), utilisation avancée de TensorFlow 2 & Keras, analyse et prétraitement de données avec NumPy/Pandas, et déploiement de modèles en production.</p>
+                    </div>
+                </div>
+                
+
+                <div class="cert-card">
+                    <img src="logo_inrs.png" alt="INRS Logo" class="cert-logo">
+                    <div class="cert-info">
+                        <h3>Prévention Sup'</h3>
+                        <p><strong>Organisme :</strong> INRS France</p>
+                        <p><strong>Date :</strong> Mars 2023</p>
+                        <p><strong>ID :</strong> 180097</p>
+                        <a href="Attestation_de_reussite_Prevention_Sup_.pdf" target="_blank" class="cert-link">
+                            📄 Voir le certificat
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
