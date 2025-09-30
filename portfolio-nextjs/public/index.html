@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection vers le nouveau portfolio</title>
+    <meta http-equiv="refresh" content="0; url=https://portfolio-auren-moyo.vercel.app/">
+    <script>
+        // Redirection automatique
+        window.location.replace("https://portfolio-auren-moyo.vercel.app/");
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { margin-bottom: 1rem; }
+        .spinner {
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Portfolio mis à jour !</h1>
+        <p>Vous allez être redirigé vers le nouveau portfolio moderne...</p>
+        <div class="spinner"></div>
+        <p><small>Si la redirection ne fonctionne pas, <a href="https://portfolio-auren-moyo.vercel.app/" style="color: #06b6d4;">cliquez ici</a></small></p>
+    </div>
+</body>
+</html>

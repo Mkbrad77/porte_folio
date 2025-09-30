@@ -1,0 +1,185 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Auren Moyo",
+    "title": "Data Science & Artificial Intelligence Engineer",
+    "description": "Specialized in advanced modeling, machine learning and deep learning. Passionate about AI innovation and automation of decision-making processes.",
+    "cta": {
+      "projects": "View my projects",
+      "contact": "Contact me"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Data Science Engineer passionate about AI",
+    "description1": "Trained at EPITA in an engineering cycle specialized in Data Science and Software Engineering, I am currently consolidating my journey with a research project in finance and artificial intelligence at Devoteam.",
+    "description2": "Passionate about AI, data analysis and visualization, as well as automation, I have developed solid skills in Python, SQL, Power BI, machine learning, deep learning and MLOps.",
+    "description3": "Rigorous, results-oriented and able to work both independently and in a team, I will be delighted to take on new challenges and actively contribute to innovative projects.",
+    "contact": {
+      "email": "moyobradley7@gmail.com",
+      "phone": "+33 6 09 70 98 51",
+      "location": "Antony, France",
+      "availability": "Available February 2026"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "programming": {
+      "title": "Programming & Development",
+      "items": ["Python", "Java", "C/Unix", "Shell", "SQL", "Docker", "FastAPI", "Quarkus", "Maven"]
+    },
+    "ai": {
+      "title": "Machine Learning & AI",
+      "items": ["Scikit-Learn", "TensorFlow", "PyTorch", "Deep Learning", "Reinforcement Learning", "LLM", "MLOps", "Concrete ML"]
+    },
+    "data": {
+      "title": "Data Science & Analysis",
+      "items": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Grafana", "Excel", "Selenium"]
+    },
+    "database": {
+      "title": "Big Data & Databases",
+      "items": ["SQL Server", "MySQL", "PostgreSQL", "Hadoop", "Spark", "NoSQL", "ETL", "Pentaho"]
+    },
+    "tools": {
+      "title": "Tools & Collaboration",
+      "items": ["GitHub", "Jira", "Google Docs", "MS Office", "Linux", "Windows", "Sphinx"]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "items": ["Leadership", "Team spirit", "Active listening", "Self-taught", "Native French", "English B2"]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "fraudDetection": {
+      "title": "Fraud Detection by FHE",
+      "role": "EPITA Project - Homomorphic Cryptography",
+      "description": "Development of an innovative banking fraud detection system using Fully Homomorphic Encryption (FHE) to preserve data confidentiality. Client-server architecture with client-side encryption and server-side predictions without decryption.",
+      "tech": ["Python", "FastAPI", "FHE", "Cryptography", "Machine Learning", "Sphinx"]
+    },
+    "dataEngineering": {
+      "title": "Data Engineering - Blue EnerFreeze",
+      "role": "Data Engineer (February 2025 - 6 months)",
+      "description": "Implementation of a data cleaning robot for photovoltaic power plants, development of ML models for energy production forecasting, and design of a hybrid ETL for gas consumption data extraction via GRDF API.",
+      "tech": ["Python", "Pentaho", "ETL", "GRDF API", "Machine Learning", "ORM"]
+    },
+    "financialAI": {
+      "title": "Financial AI - Devoteam",
+      "role": "AI Research Engineer (Ongoing)",
+      "description": "Design and implementation of advanced methods (Reinforcement Learning, Deep Learning, LLM) applied to finance. Development of a multi-asset market simulation environment with crisis scenarios and volatility regimes.",
+      "tech": ["Reinforcement Learning", "Deep Learning", "LLM", "Finance", "Time series", "Embeddings"]
+    },
+    "scraping": {
+      "title": "Scraping & API Integration",
+      "role": "Commercial application development",
+      "description": "Implementation of data scraping with Selenium and integration of ChatGPT's GPT-3.5-turbo API to introduce innovative features in a commercial application. Development of a secure API with complete documentation.",
+      "tech": ["Python", "Selenium", "GPT-3.5", "API Integration", "Web Scraping", "Documentation"]
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "devoteam": {
+      "title": "Junior Consultant in Artificial Intelligence & Digital Transformation",
+      "company": "Devoteam",
+      "description": "Design and implementation of advanced methods in finance: Reinforcement Learning, Deep Learning, LLM. Multimodal data engineering and development of market simulation environments.",
+      "period": "Ongoing"
+    },
+    "blueEnerFreeze": {
+      "title": "Data Engineer",
+      "company": "BLUE EnerFreeze",
+      "description": "Development of data cleaning robots for photovoltaic power plants, ML models for energy forecasting, and design of hybrid ETLs for gas consumption data via GRDF API.",
+      "period": "Feb 2025 - 6 months"
+    },
+    "immar": {
+      "title": "Intern",
+      "company": "IMMAR",
+      "description": "First 4-month professional internship, introduction to industrial projects and development of skills in applied software engineering.",
+      "period": "Aug 2023 - 4 months"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "epita": {
+      "title": "Engineering degree in computer development",
+      "school": "EPITA - Lyon",
+      "description": "Specialization in Data Science and Software Engineering. Complete training in AI, machine learning, software development and technical project management.",
+      "period": "2022 - 2025"
+    },
+    "prepa": {
+      "title": "Scientific preparatory class",
+      "school": "École Esprit - Tunis",
+      "description": "Mathematics and Physics option. Intensive training in fundamental sciences preparing for engineering studies.",
+      "period": "2020 - 2022"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "devoteam": {
+      "title": "Devoteam AI Level 2 - Sales",
+      "organization": "Canvas Credentials (Badgr)",
+      "date": "August 2025",
+      "skills": "understanding of AI use cases, AI offer positioning, client-oriented consulting approach, commercial argumentation around AI solutions.",
+      "link": "View certificate"
+    },
+    "udemyDataScience": {
+      "title": "Data Science and Machine Learning MasterClass Python",
+      "organization": "Udemy",
+      "date": "Sept. 2024",
+      "skills": "Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn",
+      "link": "View certificate"
+    },
+    "aws": {
+      "title": "AWS Cloud Foundations",
+      "organization": "AWS Education Services",
+      "date": "June 2024",
+      "skills": "cloud computing basics, AWS architecture principles",
+      "link": "View certificate"
+    },
+    "git": {
+      "title": "Professional Git & GitHub/GitLab/Azure DevOps",
+      "organization": "Udemy",
+      "status": "Ongoing",
+      "skills": "advanced Git mastery, branch management, pull/merge requests, collaborative workflows, conflict resolution and repository management on GitHub/GitLab/Azure DevOps."
+    },
+    "streamlit": {
+      "title": "Deploy ML Models with Streamlit",
+      "organization": "Udemy",
+      "status": "Ongoing",
+      "skills": "creating interactive applications with Streamlit, ML model integration, session/caching management, connection to data sources and secure production deployment."
+    },
+    "tensorflow": {
+      "title": "Deep Learning with TensorFlow 2 & Keras",
+      "organization": "Udemy",
+      "status": "Ongoing",
+      "skills": "developing deep learning models (ANN, CNN, RNN, GAN), advanced use of TensorFlow 2 & Keras, data analysis and preprocessing with NumPy/Pandas, and model deployment in production."
+    },
+    "inrs": {
+      "title": "Prévention Sup'",
+      "organization": "INRS France",
+      "date": "March 2023",
+      "link": "View certificate"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Auren Moyo",
+    "subtitle": "Data Science & Artificial Intelligence Engineer"
+  }
+}

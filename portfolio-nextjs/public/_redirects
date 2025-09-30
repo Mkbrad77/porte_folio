@@ -1,0 +1,7 @@
+# Redirection pour l'ancien portfolio HTML
+/portfolio/* https://portfolio-auren-moyo.vercel.app/:splat 301!
+/index.html https://portfolio-auren-moyo.vercel.app/ 301!
+/porte_folio/* https://portfolio-auren-moyo.vercel.app/:splat 301!
+
+# Redirection pour tous les autres chemins
+/* https://portfolio-auren-moyo.vercel.app/ 301!
