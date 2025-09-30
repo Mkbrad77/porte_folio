@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -683,10 +683,10 @@
     </style>
 </head>
 <body>
-    <!-- Particles Background -->
+
     <div class="particles" id="particles"></div>
 
-    <!-- Navigation -->
+
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="logo">AM</div>
@@ -701,7 +701,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+
     <section id="hero" class="hero">
         <div class="hero-content">
             <h1>Auren Moyo</h1>
@@ -721,7 +721,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+
     <section id="about" class="section">
         <div class="container">
             <h2 class="section-title fade-in">À propos</h2>
@@ -772,7 +772,7 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
+
     <section id="experience" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Expérience</h2>
@@ -819,7 +819,7 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+
     <section id="skills" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Compétences</h2>
@@ -907,7 +907,7 @@
 
 
 
-    <!-- Projects Section -->
+
     <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Projets</h2>
@@ -1003,7 +1003,7 @@
     </section>
 
 
-    <!-- Formation Section -->
+
     <section id="formation" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Formations</h2>
@@ -1038,13 +1038,13 @@
     </section>
 
 
-    <!-- Certifications Section -->
+
     <section id="certifications" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Certifications</h2>
             <div class="certifications-grid fade-in">
 
-                <!-- Exemple Certification -->
+
                 <div class="cert-card">
                     <img src="devoteam.png" alt="Devoteam Logo" class="cert-logo">
                     <div class="cert-info">
@@ -1134,7 +1134,7 @@
             </div>
         </div>
     </section>
-    <!-- Contact Section -->
+
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title fade-in">Contact</h2>
@@ -1166,7 +1166,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="footer">
         <div class="container">
             <div class="social-links">
@@ -1344,5 +1344,300 @@
 
         window.addEventListener('scroll', updateGradient);
     </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="3; url=https://porte-folio-pi.vercel.app/">
+  <title>Portfolio Auren Moyo - Redirection vers la nouvelle version</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Animated background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    /* Floating orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(40px);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .orb-1 {
+      width: 300px;
+      height: 300px;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
+      top: 10%;
+      left: 10%;
+      animation-delay: 0s;
+    }
+
+    .orb-2 {
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(99, 102, 241, 0.2));
+      bottom: 10%;
+      right: 10%;
+      animation-delay: 2s;
+    }
+
+    .orb-3 {
+      width: 250px;
+      height: 250px;
+      background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(6, 182, 212, 0.2));
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation-delay: 4s;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-20px) scale(1.1); }
+    }
+
+    /* Main container */
+    .container {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+      max-width: 600px;
+      width: 90%;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Logo */
+    .logo {
+      font-size: 3rem;
+      font-weight: bold;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.3)); }
+      to { filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5)); }
+    }
+
+    /* Title */
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffffff, #e5e7eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Subtitle */
+    .subtitle {
+      font-size: 1.25rem;
+      color: #9ca3af;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    /* Progress bar */
+    .progress-container {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      overflow: hidden;
+      margin: 2rem 0;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #6366f1, #8b5cf6, #06b6d4);
+      border-radius: 2px;
+      animation: progress 3s ease-out forwards;
+    }
+
+    @keyframes progress {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+
+    /* Countdown */
+    .countdown {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #06b6d4;
+      margin: 1rem 0;
+    }
+
+    /* Link button */
+    .redirect-link {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      text-decoration: none;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);
+      margin-top: 1rem;
+    }
+
+    .redirect-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(99, 102, 241, 0.4);
+      background: linear-gradient(135deg, #5b21b6, #7c3aed);
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .feature {
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .feature-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-text {
+      font-size: 0.9rem;
+      color: #d1d5db;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 2rem 1rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .logo {
+        font-size: 2.5rem;
+      }
+      
+      .orb {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <div class="container">
+    <div class="logo">AM</div>
+    <h1>Portfolio Modernisé !</h1>
+    <p class="subtitle">
+      Votre portfolio a été entièrement redesigné avec un style moderne et professionnel.<br>
+      Vous allez être redirigé automatiquement vers la nouvelle version...
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🎨</div>
+        <div class="feature-text">Design moderne</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌍</div>
+        <div class="feature-text">Bilingue FR/EN</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-text">Performance optimale</div>
+      </div>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+
+    <div class="countdown" id="countdown">3</div>
+
+    <a href="https://porte-folio-pi.vercel.app/" class="redirect-link">
+      Accéder au nouveau portfolio
+    </a>
+  </div>
+
+  <script>
+    // Countdown
+    let timeLeft = 3;
+    const countdownElement = document.getElementById('countdown');
+    
+    const countdown = setInterval(() => {
+      timeLeft--;
+      countdownElement.textContent = timeLeft;
+      
+      if (timeLeft <= 0) {
+        clearInterval(countdown);
+        window.location.replace("https://porte-folio-pi.vercel.app/");
+      }
+    }, 1000);
+
+    // Redirection immédiate si JavaScript est activé
+    setTimeout(() => {
+      window.location.replace("https://porte-folio-pi.vercel.app/");
+    }, 3000);
+  </script>
 </body>
 </html>
